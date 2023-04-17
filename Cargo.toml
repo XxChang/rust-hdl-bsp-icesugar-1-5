@@ -1,0 +1,15 @@
+[package]
+name = "rust-hdl-bsp-icesugar-1-5"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Support crate for RustHDL - provides Board Support Package for the ICESugar v1.5"
+homepage = "https://github.com/XxChang/rust-hdl-bsp-icesugar-1-5.git"
+repository = "https://github.com/XxChang/rust-hdl-bsp-icesugar-1-5.git"
+keywords = ["fpga", "verilog", "hardware"]
+authors = ["Chang Xu <xuxchang@hotmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-hdl = { version = "0.45.0", features = ["fpga"] }
